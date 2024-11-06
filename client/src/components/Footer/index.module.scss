@@ -1,0 +1,31 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px 15px 50px;
+  background-color: #87bec7;
+  color: white;
+
+
+  p {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 850px) {
+  .Footer {
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .Footer {
+    p {
+      font-size: 11px;
+    }
+  }
+}

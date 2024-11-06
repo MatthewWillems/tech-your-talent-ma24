@@ -1,0 +1,47 @@
+.Heading {
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  h1 {
+    width: 50%;
+    font-family: "Jockey One", sans-serif;
+    color: white;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.493);
+    letter-spacing: 1px;
+    font-size: 90px;
+    padding: 0 0 20px;
+
+    @media (max-width: 850px) {
+      width: 80%;
+      font-size: 50px;
+    }
+  }
+
+  button {
+    margin: 0 0 0 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    background-color: #87bec7;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 0.5s ease-in-out;
+
+    &:hover {
+      background-color: #77abb3;
+    }
+
+    @media (max-width: 850px) {
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+  }
+}
